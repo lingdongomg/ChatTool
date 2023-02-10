@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	margin: 0 auto;
+	padding: 0;
+}
+
+.fengmian{
+	width: 980px;
+	margin: 0 auto;
+	cursor: pointer;
+	margin-bottom: 10px;
+}
+.nav{
+	width: 980px;
+	height: 133px;
+	margin: 0 auto;
+	margin-top: 20px;
+	font-family: "microsoft yahei";
+	margin-bottom: 15px;
+}
+
+.nav li{
+	list-style: none;
+	float: left;
+	width: 150px;
+	height: 100%;
+	line-height: 133px;
+	text-align: center;
+	font-size: 24px;
+	color:#333333;
+}
+
+.nav .xuanzhong{
+	background-color: #1024E0;
+	cursor: pointer;
+}
+
+.nav .xuanzhong_1{
+	text-decoration: none;
+	color: #fff;
+}
+
+.nav .mouse{
+	background-color: #2196F3;
+}
+
+.nav .mouse_1{
+	text-decoration: none;
+	color: #fff;
+}
+
+.nav .mouse:hover{
+	background-color:#1024E0;
+	color:#ffffff;
+	cursor: pointer;
+}
+
+.photo{
+	width: 980px;
+	height: 680px;
+	margin: 0 auto;
+
+}
+.photo img {
+	width: 240px;
+	height: 160px;
+	margin: 0 auto;
+}
+
+.head{
+	width: 980px ;
+	background-color: #2196F3;
+	color: white;
+	text-align: center;
+	padding: 15px;
+	margin: 0 auto;
+	margin-bottom: 15px;
+}
+
+.wenzi{
+	width: 980px;
+	margin: 0 auto;
+}
+
+.video{
+	width: 980px ;
+	margin: 0 auto;
+	height: 400px;
+}
+
+.video_1{
+	width: 480px ;
+	margin: 0 auto;
+	cursor: pointer;
+}

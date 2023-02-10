@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin: 0 auto;
+	padding: 0;
+	background:url( "../image/120.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: "微软雅黑";
+}
+
+.biaodan{
+	width: 320px;
+	length:420px;
+	margin:0 auto;
+	background:rgba(0,0,0,0.4);
+	color: #fff;
+	top:50%;
+	left:50%;
+	position:absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 50px 30px;
+}
+
+.biaodan input{
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.biaodan input[type="text"],input[type="password"]{
+	border:none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	height: 40px;
+	color: fff;
+	font-size: 16px;
+	
+}
+
+.biaodan input[type="submit"]{
+	border:none;
+	height: 40px;
+	background: #1c8adb;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+}
+
+.biaodan input[type="radio"]{
+	border:none;
+	height: 24px;
+}
+
+.biaodan input[type="submit"]:hover{
+	cursor: pointer;
+	background: #39dc79;
+	color: #000;
+}
+
+.biaodan a{
+	text-decoration: none;
+	font-size: 24px;
+	color: #fff;
+}
+
+.biaodan a:hover{
+	color: #39dc79;
+}
